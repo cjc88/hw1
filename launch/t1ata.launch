@@ -1,0 +1,10 @@
+<launch>
+    <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" />
+  <!-- 
+    <node name="turtle_teleop_key" pkg="turtlesim" type="turtle_teleop_key"
+          output="screen" launch-prefix="gnome-terminal -e" />
+  -->
+    <node name="turtle1ata" pkg="turtlesim_tst" type="turtle1ata" 
+          output="screen"  />
+</launch>
+
